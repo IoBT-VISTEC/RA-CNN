@@ -1,8 +1,8 @@
 # RA-CNN (Towards Ant-sized Moving Object Localization using Deep Learning in FMCW Radar: A Pilot Study)
 ## Abstract
 We propose a deep learning-based approach to localizing a small moving object with a single millimeter-wave frequency-modulated continuous-wave radar (FMCW). The main challenge that foils conventional localization techniques, such as 3DFFT, Pisarenko method, MUSIC, ESPRIT, Capon’s method, and Burg’s method is the low signal-to-noise ratio of the reflected signal from millimeter-sized objects. Our key idea is to combine useful but noisy features from classical transforms (e.g. FFT) with neural networks that can refine and interpret those features into range and angle estimates by training on a large dataset of examples. Importantly, our networks were designed to be translation-equivariant, which enables accurate predictions of unseen object locations, and improves the range and azimuth RMSE scores by 34-46% and 41-60%, respectively, over state-of-the-art approaches. This pilot study establishes a new baseline for small-object tracking using FMCW and can enable tracking of small animals, such as ants inside the colony for behavior studies.
-## Dataset Request Link
-[Link](https://docs.google.com/forms/d/e/1FAIpQLSeQoYSWgVwbQXtHblEKB43jZwJdEc_ObEkVUGAmlc0J1OEQow/viewform?usp=pp_url)
+## Dataset Link
+[Link](https://drive.google.com/drive/folders/12Vm5LFC2twy1dtUdjmkHo18TClfjtyl4?usp=sharing)
 ## Dataset Description
 There are totally 360 files. There are 3 files type include 
 1. "raw_signal_real_x.npy" (real part of radar IQ data)
